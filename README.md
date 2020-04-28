@@ -61,8 +61,8 @@ Future Features:
 
 To-do list:
 
-* Verify that AnsiNist2K can read and write AN2011_Sample_Data Traditional Encoding about 96 different test
-* Verify that AnsiNist2K can read and write AN2013_Sample_Data Traditional Encoding about 12 different test
+* Verify that AnsiNist2K can read and write AN2011_Sample_Data Traditional Encoding about 96 different tests
+* Verify that AnsiNist2K can read and write AN2013_Sample_Data Traditional Encoding about 12 different tests
 
 ## Status
 Project is: _in progress_
