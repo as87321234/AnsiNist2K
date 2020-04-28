@@ -13,10 +13,14 @@ Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Ta
 
 ## General info
 
+The iNistPack package is an java implementation of the ANSI/NIST-ITL 1-2000 standard. This java librairie contains methods  for reading, writing, and manipulating the contents of ANSI/NIST data files. 
 
-The iNistPack is a java generic implementation of the NistPack. It has been premerly designed to create, read, update file following the American National Standard for Information Systems for "Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Tattoo (SMT) Information.
+The java libraires is provide to parse ANSI/NIST files into memory, manipulate designated fields, and write the sequence back to file. This library is very similar to the an2ktool that can be used to work in batch mode. The librarie iNistPack works on Logical data units where specified contents may be extracted, inserted, substituted,or deleted from the file.
+
 
 The project inception was motivate by the need of having a non commercial Java implementation to create, read, write and update Electronic File Transfert file following the NIST format as describe in the following publication ["NIST Special Publication 500-245"](https://www.nist.gov/system/files/documents/itl/ansi/sp500-245-a16.pdf).
+
+
 
 ## Technologies
 
