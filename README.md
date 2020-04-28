@@ -8,6 +8,7 @@ Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Ta
 * [Features](#features)
 * [JUnit](#JUnit)
 * [Status](#status)
+* [Known Limitions](#Known Limitations)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
