@@ -34,25 +34,22 @@ Show examples of usage:
 INistPacket iNist = new INistPacket("filename path");
 iNist.setItem("Value", "1.1.1.1.2");
 iNist.findItem("1.1.1.1.2");
-bytep[] bNist = iNist.writeMem();
+byte[] bNist = iNist.writeMem();
 ```
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+List of features 
+* read, modify and write file following the ANSI/NIST-ITL 1-2000 standard
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* 
 
 Future Features:
 
 * Validation framework based on JValidation
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_
 
 ## Inspiration
 The project was inspired by while reviewing the ["NIST Fingerprint Image Software (NFIS)" - User Guide](https://www.govinfo.gov/content/pkg/GOVPUB-C13-207080ee482017f6266cfac32d4efd16/pdf/GOVPUB-C13-207080ee482017f6266cfac32d4efd16.pdf) and more specically the AN2K2TXT tool.
