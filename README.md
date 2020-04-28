@@ -31,7 +31,7 @@ Describe how to install / setup your local environement / add link to demo versi
 Show examples of usage:
 
 ```
-INistPacket iNist = new InistPacker("filename path");
+INistPacket iNist = new INistPacket("filename path");
 iNist.setItem("Value", "1.1.1.1.2");
 iNist.findItem("1.1.1.1.2");
 bytep[] bNist = iNist.writeMem();
