@@ -7,6 +7,7 @@ Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Ta
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
+* [JUnit](#JUnit)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -17,7 +18,11 @@ The AnsiNist2K package is a java implementation of the ANSI/NIST-ITL 1-2000 stan
 
 The java library is provided to parse ANSI/NIST files into memory, manipulate designated fields, and write the sequence back to file. This library is very similar to the an2ktool that can be used to work in batch mode. The library AnsiNist2K works on logical data units where specified contents may be extracted, inserted, substituted, or deleted from the file.
 
-The AnsiNist2K is not imposing any business validations around ANSI/NIST Packet content. It only guarantees the integrity of the file while being read, manipulated, and written back to file. Business validation will need to be implemented outside of the AnsiNist2K.
+The AnsiNist2K is not imposing any business validations around ANSI/NIST Packet content. It only guarantees the integrity of the file while being read, manipulated, and written back to file. This makes AnsiNist2K business neutral and enable your project to leverage ANSI/NIST Standard file with your own ICD definition.
+
+The AnsiNist2K is perfect for project with limited number of transactions types and simple validation set of rules, to be embeeded into mobile application requiring to produce ANSI NIST file or used with MVC application to offer basic ANSI NIST transformations that can be later leverage by a performance testing framework such as Load Runner, JMeter to inject transactions into an Automated Biometric Identification System (ABIS).
+
+For complexe project requiring high degree of validation or complexe validation rules, it is recommanded to use a commercial library that leverage a thorought tested validation framework.
 
 The project inception was motivated by the need of having a non-commercial Java implementation to create, read, write and update Electronic File Transfert file following the NIST format as described in the following publication ["NIST Special Publication 500-245"](https://www.nist.gov/system/files/documents/itl/ansi/sp500-245-a16.pdf).
 
@@ -51,6 +56,13 @@ Future Features:
 * Support Field Encryption based on X509 Certificate
 * Extract record type 10 as JPEG
 * Extract record type 14 WSQ fingerprint
+
+## JUnit
+
+To-do list:
+
+* Verify that AnsiNist2K can read and write AN2011_Sample_Data Traditional Encoding about 96 different test
+* Verify that AnsiNist2K can read and write AN2013_Sample_Data Traditional Encoding about 12 different test
 
 ## Status
 Project is: _in progress_
