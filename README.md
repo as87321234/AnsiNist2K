@@ -71,5 +71,5 @@ Project is: _in progress_
 The project was inspired while reviewing the ["NIST Fingerprint Image Software (NFIS)" - User Guide](https://www.govinfo.gov/content/pkg/GOVPUB-C13-207080ee482017f6266cfac32d4efd16/pdf/GOVPUB-C13-207080ee482017f6266cfac32d4efd16.pdf) and more specifically the AN2K2TXT tool.
 
 ## Contact
-Created by [@as87321234]  email: as87321234@gmail.com  - feel free to contact me!
+Created by [@as87321234]  email: as87321234@gmail.com  - Retired from the corporate world but alway looking for a good challenge - feel free to contact me!
 
