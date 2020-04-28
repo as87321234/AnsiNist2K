@@ -66,7 +66,7 @@ To-do list:
 
 ## Known Limitations
 
-* The NistAnsi2K Project work well if the Java VM run with -Dfile.encoding=ISO_8859_1. This many not be suitable for your project. Future release will ensure that all file encoding are being supported.
+* The AnsiNist2K Project works well if the Java VM run with -Dfile.encoding=ISO_8859_1 environment property. It is understood that this may not be suitable for all projects. Future releases will ensure that all file encoding are being supported.
 
 ## Status
 Project is: _in progress_
