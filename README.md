@@ -1,6 +1,6 @@
 # iNistPack
 
-Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Tattoo (SMT) Information
+Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Tattoo (SMT) Information based on the ANSI/NIST-ITL 1-2000 standard.
 
 ## Table of contents
 * [General info](#general-info)
