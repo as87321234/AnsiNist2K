@@ -2,14 +2,8 @@
 
 Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Tattoo (SMT) Information`
 
-
- iNistPack
- 
-> Here goes your awesome project description!
-
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -50,5 +44,5 @@ Project is: _in progress_, _finished_, _no longer continue_ and why?
 Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@as87321234](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@as87321234]  mail: as87321234@gmail.com  - feel free to contact me!
 
