@@ -39,7 +39,7 @@ byte[] bNist = iNist.writeMem();
 
 ## Features
 List of features 
-* read, modify and write file following the ANSI/NIST-ITL 1-2000 standard
+* read, modify and write files following the ANSI/NIST-ITL 1-2000 standard
 
 To-do list:
 * Support Base64 file ouput
