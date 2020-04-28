@@ -40,10 +40,13 @@ byte[] bNist = nist.writeMem();
 
 ## Features
 List of features 
-* read, modify and write files following the ANSI/NIST-ITL 1-2000 standard
+* read, modify and write files following the ANSI/NIST-ITL 1-2000 standard using ISO-8859-1 file encoding
 
 To-do list:
 * Support Base64 file ouput
+* Support UTF java VM file encoding
+* Support all java VM  -Dfile.encoding
+
 
 Future Features:
 * Validation framework based on JValidation
@@ -57,8 +60,13 @@ Future Features:
 
 To-do list:
 
+* Verify that support for file encoding different than ISO-8859-1
 * Verify that AnsiNist2K can read and write AN2011_Sample_Data Traditional Encoding about 96 different tests
 * Verify that AnsiNist2K can read and write AN2013_Sample_Data Traditional Encoding about 12 different tests
+
+## Known Limitations
+
+* The NistAnsi2K Project work well if the Java VM run with -Dfile.encoding=ISO_8859_1. This many not be suitable for your project. Future release will ensure that all file encoding are being supported.
 
 ## Status
 Project is: _in progress_
