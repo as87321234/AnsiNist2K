@@ -1,4 +1,4 @@
-# AnsiNist2K
+# AnsiNist2K - Traditional Encoding
 
 Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Tattoo (SMT) Information based on the ANSI/NIST-ITL 1-2000 standard.
 
