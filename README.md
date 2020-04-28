@@ -17,7 +17,7 @@ The iNistPack package is a java implementation of the ANSI/NIST-ITL 1-2000 stand
 
 The java library is provided to parse ANSI/NIST files into memory, manipulate designated fields, and write the sequence back to file. This library is very similar to the an2ktool that can be used to work in batch mode. The library iNistPack works on logical data units where specified contents may be extracted, inserted, substituted, or deleted from the file.
 
-The iNIstPack is not imposing any business validations around ANSI/NIST Packet content. It only guarantees the integrity of the file. Business validation will need to be implemented outside of the iNistPack.
+The iNIstPack is not imposing any business validations around ANSI/NIST Packet content. It only guarantees the integrity of the file while being read, manipulated and write back to file. Business validation will need to be implemented outside of the iNistPack.
 
 The project inception was motivated by the need of having a non commercial Java implementation to create, read, write and update Electronic File Transfert file following the NIST format as describe in the following publication ["NIST Special Publication 500-245"](https://www.nist.gov/system/files/documents/itl/ansi/sp500-245-a16.pdf).
 
@@ -42,11 +42,15 @@ List of features
 * read, modify and write file following the ANSI/NIST-ITL 1-2000 standard
 
 To-do list:
-* 
+* Support Base64 file ouput
+
+
 
 Future Features:
-
 * Validation framework based on JValidation
+* Support Simple Record Hashing based on shared secret
+* Support Record Hashing based on X509 Certificate
+* Support Field Encryption based on X509 Certificate
 
 ## Status
 Project is: _in progress_
