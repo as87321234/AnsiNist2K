@@ -5,7 +5,6 @@ Data Format for the Interchange of Fingerprint, Facial, &amp; Scar Mark &amp; Ta
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
 * [JUnit](#JUnit)
 * [Status](#status)
@@ -28,9 +27,6 @@ The project inception was motivated by the need of having a non-commercial Java 
 
 ## Technologies
 Java Implementation of the ANSI/NIST-ITI 1-2000
-
-## Setup
-<tbd>
 
 ## Code Examples
 Show examples of usage:
