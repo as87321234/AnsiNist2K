@@ -9,9 +9,9 @@
 		</encoder>
 	</appender>	
 	
-	<logger name="com.pointtomap.ansinist2k" level="debug" />	
+	<logger name="com.pointtomap.ansinist2k" level="warn" />	
 
-	<root level="fine">
+	<root level="warn">
 		<appender-ref ref="STDOUT" />
 	</root>
 
