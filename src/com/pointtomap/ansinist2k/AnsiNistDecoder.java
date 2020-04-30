@@ -118,7 +118,7 @@ public class AnsiNistDecoder {
 				ansiNistPacket.createItem(cleanSeperator(value), rectype[0], recindx[0], fieldId[0], subFieldId[0],
 						itemId[0]);
 
-				log.info(String.format("field %d.%d.%d.%d.%d=%s", rectype[0], recindx[0], fieldId[0], subFieldId[0],
+				log.debug(String.format("field %d.%d.%d.%d.%d=%s", rectype[0], recindx[0], fieldId[0], subFieldId[0],
 						itemId[0], value));
 
 			} else {
@@ -128,8 +128,9 @@ public class AnsiNistDecoder {
 				ansiNistPacket.createItem(cleanSeperator(value), rectype[0], recindx[0], fieldId[0], subFieldId[0],
 						itemId[0]);
 
-				log.info(String.format("field %d.%d.%d.%d.%d=%s", rectype[0], recindx[0], fieldId[0], subFieldId[0],
+				log.debug(String.format("field %d.%d.%d.%d.%d=%s", rectype[0], recindx[0], fieldId[0], subFieldId[0],
 						itemId[0], String.format("Binary Payload Length (%d)", rawSubfield.length())));
+
 			}
 
 			itemId[0]++;
@@ -351,7 +352,7 @@ public class AnsiNistDecoder {
 					// Calculate record length
 					String length = (recordBuffer.length() - 2 + (recordBuffer.length() + "").length()) + "";
 					String recordStr = recordBuffer.toString().replaceFirst("%s", length);
-					log.info(String.format("Record type %d.%d.%03d lenght is: %s", rectype, recindx, fieldId, length));
+					log.debug(String.format("Record type %d.%d.%03d lenght is: %s", rectype, recindx, fieldId, length));
 
 					fileBuffer.append(recordStr);
 

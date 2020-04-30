@@ -5,13 +5,25 @@ import java.io.File;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-
-import com.pointtomap.ansinist2k.AnsiNistPacket;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 class AnsiNistPacketTest {
 
+	private static Logger log = LoggerFactory.getLogger(AnsiNistDecoder.class);
+
+//	@Test
+//	public void checkLogback() {
+//		// assume SLF4J is bound to logback in the current environment
+//		LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
+//		// print logback's internal status
+//		StatusPrinter.print(lc);
+//
+//	}
+
 	@Test
 	public void checkFileEncoding() throws Exception {
+
 		Assert.assertEquals(null, "ISO-8859-1", System.getProperty("file.encoding"));
 	}
 
