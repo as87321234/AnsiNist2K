@@ -12,14 +12,6 @@ class AnsiNistPacketTest {
 
 	private static Logger log = LoggerFactory.getLogger(AnsiNistDecoder.class);
 
-//	@Test
-//	public void checkLogback() {
-//		// assume SLF4J is bound to logback in the current environment
-//		LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
-//		// print logback's internal status
-//		StatusPrinter.print(lc);
-//
-//	}
 
 	@Test
 	public void checkFileEncoding() throws Exception {
