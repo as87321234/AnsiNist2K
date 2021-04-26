@@ -10,7 +10,7 @@
 
 	<properties>
 		<commons-codec.version>1.14</commons-codec.version>
-		<commons-io.version>2.6</commons-io.version>
+		<commons-io.version>2.7</commons-io.version>
 		<slf4j-api.version>1.7.30</slf4j-api.version>
 	</properties>
 
